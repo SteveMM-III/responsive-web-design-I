@@ -125,8 +125,8 @@ header nav a {
   border-radius: 5px;
   background-color: white;
 }
-.facts .sideA {
-  width: 45%;
+.facts .sideA, .facts .sideB {
+  width: 48%;
 }
 .facts .sideA ul {
   margin-top: 20px;
@@ -135,6 +135,12 @@ header nav a {
 .facts .sideA ul li {
   padding: 8px 0;
   list-style-type: square;
+}
+.facts .sideB {
+  justify-content: center;
+}
+.facts .sideB img {
+  width: 100%;
 }
 footer {
   text-align: center;
@@ -182,7 +188,7 @@ footer {
   .facts .sideA {
     width: 100%;
   }
-  .services-info-img {
+  .facts .sideB {
     display: none;
   }
 }
